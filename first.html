@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- Text input First name -->
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="First name"
+      />
+      <br />
+      <br />
+      <!-- Last name -->
+      <label for="lastName">Last Name </label>
+      <input
+        type="text"
+        name="lasteName"
+        id="lastName"
+        placeholder="Last name"
+      />
+      <br />
+      <br />
+      <!-- Email -->
+      <label for="email">Email </label>
+      <input type="email" name="email" id="email" placeholder="Email" />
+      <br />
+      <br />
+      <!-- Password -->
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <br />
+      <br />
+      <!-- Radio Buttons -->
+      <!-- <label for="favLang">Select your favorite programming language.</label> -->
+      <fieldset>
+        <legend>Select your preferred location.</legend>
+        <input type="radio" name="location" value="Pune" />Pune
+        <input type="radio" name="location" value="Mumbai" />Mumbai
+        <input type="radio" name="location" value="Hyderabad" />Hyderabad
+      </fieldset>
+      <br />
+      <br />
+      <fieldset>
+        <legend>Select your favorite programming language.</legend>
+        <input type="checkbox" name="favLang" value="Python" />Python
+        <input type="checkbox" name="favLang" value="Java" />Java
+        <input type="checkbox" name="favLang" value="C++" />C++
+      </fieldset>
+      <br />
+      <br />
+      <br />
+      <label for="role">Select for which role you are applying for</label>
+      <br />
+      <select name="role" id="role">
+        <option value="Nodejs">Nodejs</option>
+        <option value="JS">JavaScript</option>
+        <option value="react">React</option>
+      </select>
+      <br />
+      <br />
+      <label for="desc">Describe yourself in few words.</label>
+      <br />
+      <textarea
+        name="Description"
+        id="desc"
+        cols="50"
+        rows="10"
+        placeholder="Description"
+      ></textarea>
+      <br />
+      <br />
+      <br />
+
+      <!-- Submit button -->
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
