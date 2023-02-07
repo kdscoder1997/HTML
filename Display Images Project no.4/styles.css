@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* We use box-sizing : border-box because if we want to resize(padding/margin) a box itself not the element inside it, we use it. If we dont use it the resize will be on the element part inside the box.*/
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5rem;
+}
+
+.nav {
+  height: 6rem;
+  background: #222;
+  padding: 1rem 0;
+  /* border: 2px solid blue; */
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 145px;
+  margin: 1rem auto;
+  /* border: 2px solid red; */
+}
+
+.nav-title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  color: #fff;
+  margin: 1rem auto;
+  /* border: 3px solid green; */
+}
+
+.hero {
+  background: linear-gradient(
+      270deg,
+      rgba(126, 115, 84, 0.1),
+      rgb(105, 62, 25, 1) /* rgba(105, 62, 25, 1) */
+    ),
+    url("./bg-images/coffee-img.jpg") center/cover;
+  min-height: calc(100vh - 6rem);
+}
+
+.hero-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.hero-center h1 {
+  letter-spacing: 0.4rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.hero-center p {
+  max-width: 550px;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
